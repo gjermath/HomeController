@@ -7,7 +7,7 @@ public class SettingsActivity extends PreferenceActivity {
 	@SuppressWarnings("deprecation")
 	public SettingsActivity() {
 		// TODO Auto-generated constructor stub
-        addPreferencesFromResource(R.xml.preferences);
+     //   addPreferencesFromResource(R.xml.preferences);
 	}
 
 }
