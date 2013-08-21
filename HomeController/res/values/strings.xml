@@ -4,8 +4,18 @@
     <string name="app_name">Home Controller</string>
     <string name="action_settings">Settings</string>
 
+    
+    <!-- Main -->
     <string name="button_hue">Philips Hue Lights</string>
     <string name="button_sonos">Sonos Sound System</string>
     <string name="button_xbmc">XBMC Media Center</string>
+
+    
+    
+    
+    <!-- Settings -->
+    
+    
+    
     
 </resources>
