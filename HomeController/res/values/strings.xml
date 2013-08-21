@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Home Controller</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="button_hue">Philips Hue Lights</string>
+    <string name="button_sonos">Sonos Sound System</string>
+    <string name="button_xbmc">XBMC Media Center</string>
+    
+</resources>

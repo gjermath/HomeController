@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Network" android:key="network_settings">
+        <EditTextPreference android:key="home_wifi" android:title="Home Wifi" android:summary="Home Wifi SSID" android:defaultValue="JHDyxHC6"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Philips Hue" android:key="hue_settings" android:summary="Settings for Philips Hue">
+        <CheckBoxPreference android:key="hue_enabled" android:title="Enable Hue" android:defaultValue="true" />
+        <EditTextPreference android:key="hue_ip" android:title="Bridge IP" android:defaultValue="192.168.0.10"/>
+        <EditTextPreference android:key="hue_devicetype" android:title="Device Type" android:defaultValue="android_test"/>
+        <EditTextPreference android:key="hue_deviceid" android:title="Remote ID" android:defaultValue="developer"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Sonos" android:key="sonos_settings" android:summary="Settings for Sonos">
+        <CheckBoxPreference android:key="sonos_enabled" android:title="Enable Sonos" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="XBMC" android:key="xbmc_settings" android:summary="Settings for XBMC">
+        <CheckBoxPreference android:key="xbmc_enabled" android:title="Enable XBMC" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
